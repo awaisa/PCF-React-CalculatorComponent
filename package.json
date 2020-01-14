@@ -1,0 +1,22 @@
+{
+  "name": "pcf-project",
+  "version": "1.0.0",
+  "description": "ITC Calculator PCF control.",
+  "scripts": {
+    "build": "pcf-scripts build",
+    "clean": "pcf-scripts clean",
+    "rebuild": "pcf-scripts rebuild",
+    "start": "pcf-scripts start"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.18",
+    "@types/powerapps-component-framework": "^1.2.0",
+    "office-ui-fabric-react": "^7.82.0",
+    "react": "^16.12.0",
+    "reactdom": "^2.0.0"
+  },
+  "devDependencies": {
+    "pcf-scripts": "^1",
+    "pcf-start": "^1"
+  }
+}
